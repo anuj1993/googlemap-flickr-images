@@ -1,0 +1,29 @@
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+#map_canvas {
+	height: 100%;
+	width: 100%;
+}
+.card {
+	margin: 30px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 280px;
+	height: 300px;
+	max-width: 100%;
+	padding: 10px;
+	border-radius: 4px;
+	background: #F9F9F9;
+	box-sizing: border-box;
+}
+.flickr-img {
+	max-width: 100%;
+	height: auto;
+}
