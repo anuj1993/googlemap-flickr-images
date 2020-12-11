@@ -24,6 +24,14 @@ body {
 	box-sizing: border-box;
 }
 .flickr-img {
-	max-width: 100%;
+	max-width: 100% !important;
 	height: auto;
+}
+
+@media (min-width: 767px) {
+	.card {
+		width: 600px;
+		height: 400px;
+	}
+
 }
